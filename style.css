@@ -53,6 +53,7 @@ footer {
   text-align: left;
   margin-left: 150px;
   margin-top: 24px;
+  color: #ffffff;
 }
 
 .project-card__image {
@@ -62,4 +63,16 @@ footer {
 
 .project-card__content {
   padding: 16px;
+}
+
+.btn-project {
+  border-radius: 4px;
+  font-size: 16px;
+  color: #c6a0ff;
+  border: 1px solid #c6a0ff;
+  height: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }

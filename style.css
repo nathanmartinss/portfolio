@@ -66,6 +66,8 @@ footer {
 }
 
 .btn-project {
+  text-decoration: none;
+  padding: 8px;
   border-radius: 4px;
   font-size: 16px;
   color: #c6a0ff;
@@ -73,5 +75,10 @@ footer {
   height: 36px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.btn-project:hover {
+  background-color: #c6a0ff;
+  color: #d1d1d1;
 }

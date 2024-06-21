@@ -109,17 +109,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-footer {
-  background-color: #c6a0ff;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px;
-  bottom: 10px;
-  width: 100%;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-}
-
 .hero img {
   height: 600px;
   margin-bottom: 20px;
@@ -137,6 +126,8 @@ footer {
   padding: 70px 100px 20px 100px;
   color: #c6a0ff;
   text-align: left;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .projects {
@@ -230,6 +221,7 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
 }
 
 .p-font {
@@ -239,4 +231,15 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+footer {
+  background-color: #c6a0ff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }

@@ -8,11 +8,12 @@ body {
   text-align: center;
 }
 
-h1 {
+.title-main {
   font-weight: 700;
   font-size: 72px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  margin-top: 120px;
 }
 
 footer {
@@ -44,7 +45,6 @@ footer {
   margin-bottom: 24px;
   color: #c6a0ff;
   text-align: left;
-  font-weight: 500px;
 }
 
 .project-card {
@@ -93,7 +93,7 @@ footer {
   padding: 1rem;
   top: 2rem;
   left: 20px;
-  right: 20px;
+  right: px;
   width: calc(100% - 2rem);
   border: 2px solid #c6a0ff;
   z-index: 10;

@@ -195,7 +195,7 @@ body {
 .cards {
   width: 100%;
   justify-content: center;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 100px 50px 100px;
   text-align: left;
 }
 
@@ -203,6 +203,7 @@ body {
   background-color: #181818;
   border-radius: 10px;
   width: 100%;
+  padding: 16px 16px 16px 16px;
 }
 
 .p-card {
@@ -231,6 +232,20 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.a-font {
+  color: #d1d1d1;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.a-font:hover {
+  color: #c6a0ff;
 }
 
 footer {

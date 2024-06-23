@@ -22,7 +22,7 @@
           <li><a class="active" href="./about.html">About</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
-        <div class="menu-icon">
+        <div class="menu-icon" id="menu-icon">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
@@ -76,5 +76,13 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document
+        .getElementById("menu-icon")
+        .addEventListener("click", function () {
+          var navLinks = document.querySelector(".nav-link");
+          navLinks.classList.toggle("active");
+        });
+    </script>
   </body>
 </html>

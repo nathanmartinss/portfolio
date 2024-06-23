@@ -241,6 +241,18 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
   .menu-icon {
     display: block;
   }
@@ -261,15 +273,5 @@ footer {
 
   .nav-link li {
     margin: 1rem 0;
-  }
-
-  .projects {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 1200px) {
-  .projects {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }

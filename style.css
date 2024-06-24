@@ -158,18 +158,14 @@ body {
 
 .about {
   width: 100%;
-  padding: 0px 100px 50px;
-  text-align: left;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  gap: 100px;
-  font-size: 30px;
+  padding: 0px 20px 50px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .about img {
   border-radius: 20px;
-  align-self: end;
+  width: 100%;
 }
 
 .cards {
@@ -235,7 +231,7 @@ footer {
   padding: 20px;
   bottom: 10px;
   width: 100%;
-  font-size: 16px;
+  font-size: 13px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -298,6 +294,33 @@ footer {
   .p-main {
     font-size: 20px;
     padding: 0px 20px 50px 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .about {
+    width: 100%;
+    padding: 0px 100px 50px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 100px;
+    font-size: 30px;
+  }
+
+  .about img {
+    border-radius: 20px;
+    align-self: end;
+  }
+
+  footer {
+    background-color: #c6a0ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    bottom: 10px;
+    width: 100%;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
   }
 }

@@ -169,23 +169,20 @@ body {
 }
 
 .cards {
-  width: 100%;
-  justify-content: center;
-  padding: 0px 100px 50px 100px;
   text-align: left;
+  padding: 10px 20px 20px 20px;
 }
 
 .card-about {
   background-color: #181818;
   border-radius: 10px;
-  width: 100%;
-  padding: 16px 330px 16px 330px;
+  padding: 10px 20px 10px 20px;
 }
 
 .p-card {
   color: #d1d1d1;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -194,7 +191,7 @@ body {
 .p-description {
   color: #c6a0ff;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -204,7 +201,7 @@ body {
 .p-font {
   color: #d1d1d1;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -213,7 +210,7 @@ body {
 .a-font {
   color: #d1d1d1;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -311,6 +308,59 @@ footer {
   .about img {
     border-radius: 20px;
     align-self: end;
+  }
+
+  .cards {
+    padding: 0px 100px 50px 100px;
+    text-align: left;
+  }
+
+  .card-about {
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .p-card {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .p-description {
+    color: #c6a0ff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .p-font {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .a-font {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .a-font:hover {
+    color: #c6a0ff;
   }
 
   footer {

@@ -233,6 +233,7 @@ footer {
 }
 
 @media (min-width: 768px) {
+  /* tablet */
   .projects {
     grid-template-columns: 1fr 1fr;
   }
@@ -240,7 +241,7 @@ footer {
   .title-page {
     width: 100%;
     height: auto;
-    padding: 70px 100px 20px 100px;
+    padding: 70px 0px 20px 20px;
     color: #c6a0ff;
     text-align: left;
     font-size: 48px;
@@ -292,6 +293,104 @@ footer {
     font-size: 20px;
     padding: 0px 20px 50px 20px;
     font-family: "Montserrat", sans-serif;
+  }
+
+  .about {
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .about img {
+    border-radius: 20px;
+    align-self: end;
+  }
+
+  .cards {
+    padding: 0px 20px 50px 20px;
+    text-align: left;
+  }
+
+  .card-about {
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .p-card {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .p-description {
+    color: #c6a0ff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .p-font {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .a-font {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .a-font:hover {
+    color: #c6a0ff;
+  }
+
+  footer {
+    background-color: #c6a0ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media (min-width: 1700px) {
+  /* desktop */
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 100px 50px;
+  }
+
+  .title-page {
+    width: 100%;
+    height: auto;
+    padding: 70px 100px 20px 100px;
+    color: #c6a0ff;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
   }
 
   .about {
@@ -361,24 +460,6 @@ footer {
 
   .a-font:hover {
     color: #c6a0ff;
-  }
-
-  footer {
-    background-color: #c6a0ff;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    bottom: 10px;
-    width: 100%;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-  }
-}
-
-@media (min-width: 1200px) {
-  .projects {
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 0px 100px 50px;
   }
 }
 

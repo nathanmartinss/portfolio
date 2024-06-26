@@ -226,6 +226,18 @@ body {
   color: #c6a0ff;
 }
 
+.icon-about {
+  width: 30px;
+  padding: 10px 5px 19px 5px;
+  justify-content: center;
+}
+
+.card-contact {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 10px 10px 0px 10px;
+}
+
 footer {
   background-color: #c6a0ff;
   color: #ffffff;

@@ -138,6 +138,11 @@ body {
   padding: 16px;
 }
 
+.project-card__description {
+  text-align: justify;
+  font-size: 13px;
+}
+
 .btn-project {
   text-decoration: none;
   padding: 8px;

@@ -88,6 +88,27 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.btn-index {
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #c6a0ff;
+  border: 1px solid #c6a0ff;
+  height: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn-index:hover {
+  background-color: #c6a0ff;
+  color: #d1d1d1;
+  grid-template-columns: 1fr;
+}
+
 .hero img {
   height: 400px;
   margin-bottom: 20px;
@@ -381,6 +402,24 @@ footer {
     color: #c6a0ff;
   }
 
+  .btn-index {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #c6a0ff;
+    border: 1px solid #c6a0ff;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+  }
+
+  .btn-index:hover {
+    background-color: #c6a0ff;
+    color: #d1d1d1;
+  }
+
   footer {
     background-color: #c6a0ff;
     color: #ffffff;
@@ -477,6 +516,24 @@ footer {
 
   .a-font:hover {
     color: #c6a0ff;
+  }
+
+  .btn-index {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #c6a0ff;
+    border: 1px solid #c6a0ff;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+  }
+
+  .btn-index:hover {
+    background-color: #c6a0ff;
+    color: #d1d1d1;
   }
 }
 
